@@ -20,7 +20,7 @@ class SearchWindow: NSWindow {
         
         let frame = NSRect(
             x: screen.frame.minX,
-            y: screen.frame.minY + screen.frame.height - self.frame.height,
+            y: screen.frame.minY + screen.frame.height - self.frame.height - 26,
             width: screen.frame.width,
             height: self.frame.height)
         
